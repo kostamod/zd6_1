@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Picasso 2.8 содержит помощник уведомлений. Проект использует только
+         ImageView; именно сообщение об этом неиспользуемом классе пропускается. -->
+    <issue id="NotificationPermission">
+        <ignore regexp=".*com\.squareup\.picasso\.RemoteViewsAction\.NotificationAction.*" />
+    </issue>
+</lint>

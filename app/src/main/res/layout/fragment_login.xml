@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:fillViewport="true" android:layout_width="match_parent" android:layout_height="match_parent">
+ <LinearLayout android:orientation="vertical" android:gravity="center" android:padding="28dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+  <ImageView android:src="@drawable/ic_cinema" android:contentDescription="Логотип кинотеатра" android:layout_width="100dp" android:layout_height="100dp"/>
+  <TextView android:text="WorldCinema" android:textColor="#2A79B1" android:textStyle="bold" android:textSize="24sp" android:gravity="center" android:layout_marginTop="16dp" android:layout_marginBottom="28dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <TextView android:text="E-mail" android:textColor="#2A79B1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <EditText android:id="@+id/email" android:hint="you@example.com" android:inputType="textEmailAddress" android:singleLine="true" android:textColor="#FFFFFF" android:textColorHint="#888888" android:layout_width="match_parent" android:layout_height="52dp"/>
+  <TextView android:text="Пароль" android:textColor="#2A79B1" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+  <!-- Локальный учебный пароль предусмотрен предоставленным макетом Figma. -->
+  <EditText android:id="@+id/password" tools:ignore="WearPasswordInput" android:hint="Ваш пароль" android:inputType="textPassword" android:saveEnabled="false" android:textColor="#FFFFFF" android:textColorHint="#888888" android:layout_width="match_parent" android:layout_height="52dp"/>
+  <Button android:id="@+id/login" android:text="Войти" android:textColor="#FFFFFF" android:backgroundTint="#2A79B1" android:layout_marginTop="18dp" android:layout_width="match_parent" android:layout_height="56dp"/>
+ </LinearLayout>
+</ScrollView>
